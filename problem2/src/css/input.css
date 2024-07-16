@@ -1,0 +1,14 @@
+.auto-complete {
+    outline: none;
+    cursor: pointer;
+}
+
+.list-dropdown li:hover {
+    background-color: #ddd;    
+    cursor: pointer;
+}
+
+.list-dropdown li {
+  list-style: none;
+  padding: 5px;
+}

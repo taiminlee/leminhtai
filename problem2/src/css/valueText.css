@@ -1,0 +1,6 @@
+.value-text {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 40px 80px;
+}

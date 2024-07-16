@@ -1,0 +1,14 @@
+.simple-flex-col {
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+}
+
+.simple-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.custom-input, .custom-select {
+    padding: 14px;
+}
