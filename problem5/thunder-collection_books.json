@@ -1,0 +1,105 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "books",
+    "collectionId": "3f141e9e-74d1-4038-be02-b87ee6474778",
+    "dateExported": "2024-07-18T02:37:21.839Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "61710885-1bd3-4513-bd87-bb215562fb43",
+            "colId": "3f141e9e-74d1-4038-be02-b87ee6474778",
+            "containerId": "",
+            "name": "readBook",
+            "url": "http://localhost:3001/books/10",
+            "method": "GET",
+            "sortNum": 5000,
+            "created": "2024-07-17T08:06:55.036Z",
+            "modified": "2024-07-17T16:01:20.590Z",
+            "headers": []
+        },
+        {
+            "_id": "5b053106-4a97-4307-88e6-c85d5425e4c1",
+            "colId": "3f141e9e-74d1-4038-be02-b87ee6474778",
+            "containerId": "",
+            "name": "readBooks",
+            "url": "http://localhost:3001/books",
+            "method": "GET",
+            "sortNum": 7500,
+            "created": "2024-07-17T09:09:35.383Z",
+            "modified": "2024-07-17T09:09:46.601Z",
+            "headers": []
+        },
+        {
+            "_id": "17ae9483-fa36-44fa-8f28-c297fbe40aa1",
+            "colId": "3f141e9e-74d1-4038-be02-b87ee6474778",
+            "containerId": "",
+            "name": "readBooksWithQueries",
+            "url": "http://localhost:3001/books/search?year=2016&title=eleg",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-07-17T08:06:13.989Z",
+            "modified": "2024-07-17T09:09:14.752Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "year",
+                    "value": "2016",
+                    "isPath": false
+                },
+                {
+                    "name": "title",
+                    "value": "eleg",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "afb7a7e2-5a29-432c-8bf1-a5f913816d52",
+            "colId": "3f141e9e-74d1-4038-be02-b87ee6474778",
+            "containerId": "",
+            "name": "createBook",
+            "url": "http://localhost:3001/books",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-07-17T09:27:57.949Z",
+            "modified": "2024-07-18T02:33:45.584Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"title\": \"test 11\",\n\n    \"author_name\": \"test\",\n    \"publish_name\": \"taile\",\n  \n    \"year\": 5555\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "f0217cc5-e83a-45bc-b6bb-65e648838405",
+            "colId": "3f141e9e-74d1-4038-be02-b87ee6474778",
+            "containerId": "",
+            "name": "updateBook",
+            "url": "http://localhost:3001/books/10",
+            "method": "PUT",
+            "sortNum": 45000,
+            "created": "2024-07-17T16:08:33.609Z",
+            "modified": "2024-07-18T02:33:20.848Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n \"year\": 2000\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "88629903-cf70-4810-820b-b598a98d3947",
+            "colId": "3f141e9e-74d1-4038-be02-b87ee6474778",
+            "containerId": "",
+            "name": "deleteBook",
+            "url": "http://localhost:3001/books/10",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-07-17T11:03:28.040Z",
+            "modified": "2024-07-18T02:33:28.773Z",
+            "headers": []
+        }
+    ],
+    "ref": "bCaMftflkGz_aFheHpG256R2tbHfLvDm9qZ3RUPQCTqsBk4-1Qxzo9W9Hca3poSkaaB25T0lmtiCqgLrxDHbhA"
+}

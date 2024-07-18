@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Elegant Objects",
+    "language": "english",
+    "author_name": "Yegor Bugayenko",
+    "publish_name": "taile",
+    "page": 234,
+    "year": 2016
+  },
+  {
+    "title": "Grokking Algorithms",
+    "language": "english",
+    "author_name": "Aditya Y. Bhargava",
+    "publish_name": "taile",
+    "page": 258,
+    "year": 2023
+  },
+  {
+    "title": "Designing data-intensive applications",
+    "language": "english",
+    "author_name": "Yegor Bugayenko",
+    "publish_name": "taile",
+    "page": 613,
+    "year": 2018
+  },
+  {
+    "title": "Fluent React",
+    "language": "english",
+    "author_name": "Tejas Kumar",
+    "publish_name": "taile",
+    "page": 337,
+    "year": 2024
+  },
+  {
+    "title": "Grokking Functional Programming",
+    "language": "english",
+    "author_name": "Michal Plachta",
+    "publish_name": "taile",
+    "page": 552,
+    "year": 2022
+  }
+]
